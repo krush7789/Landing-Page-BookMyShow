@@ -1,0 +1,228 @@
+*{
+  font-family:"Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#Mheading img{
+  height: 5rem;
+  position: absolute;
+  width: 10rem;
+  left: 4rem;
+  margin: 0 0 0 0 ;
+}
+#search-bar{
+   height: 1.15rem;
+   width:40vw;
+   position: absolute;
+   left:15rem;
+   top: 1.8rem;
+}
+#city{
+   border-color: none;
+   position: absolute;
+   right: 20vw;
+   top: 1.75rem;
+}
+select+button,i{
+  position: relative;
+  left: 80vw;
+  margin: 0.5rem;
+  top: 1.3rem;
+}
+#greyline{
+  background-color: rgba(157, 155, 155, 0.821);
+  position: absolute;
+  top:5rem;
+  height: 2rem;
+  width: 100vw;
+  text-align: center;
+}
+#greyline ul{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+#fun li {
+  position: relative;
+  top:-0.5rem;
+  left: 10rem;
+  margin: 1rem 0.5rem 1rem;
+  list-style: none;
+  text-align: center;
+  color: black;
+  font-size: 0.85rem;
+}
+#coupon{
+  display: flex;
+  text-align: center;
+}
+#coupon li{
+  color: black;
+  position: relative;
+  left: 65rem;
+  top:-3.5rem;
+  list-style: none;
+  margin:1rem 0.5rem 1rem;
+  font-size: 0.85rem;
+}
+
+#image{
+  overflow-y:hidden ;
+  position: absolute;
+  top: 7rem;
+  height: 51.5vh;
+  width:100vw;
+ display: flex;
+ overflow-x:hidden;
+ background-color: rgba(176, 167, 167, 0.538);
+}
+#image img{
+  position: relative;
+  height: 50vh;
+  border-radius: 1rem;
+  margin: 0.25rem;
+}
+.mainimage{
+  position: relative;
+  left: -80vw;
+  width: 75vw;
+
+} 
+#first{
+  position: relative;
+  left: -80vw
+}
+#last{
+  position: relative;
+  left: -80vw;
+}
+#Rmovies{
+  position: relative;
+  top: 65vh;
+  font-size: 1.5rem;
+  left: 10vw;
+}
+#Movies{
+  height: 50vh;
+  width: 80vw;
+  position: relative;
+  left:10vw;
+  top:65vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#Movies img{
+  height:22rem;
+  border-radius: 1.5rem;
+}
+#Movies h2{
+  font-size: 1.15rem;
+}
+.title{
+  width: 80vw;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.description{
+  width: 80vw;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+}
+#cc{
+  position: relative;
+  left: 1.5rem;
+}
+#kal{
+  position: relative;
+  left: -2.75rem;
+}
+#io{
+  position: relative;
+  left: -4.85rem;
+}
+#dme{
+  position: relative;
+  left: -6rem;
+}
+#muna{
+  position: relative;
+  left: -9.35rem;
+}
+#biocc{
+  position: relative;
+  left: 1.5rem;
+}
+#biokal{
+  position: relative;
+  left: 0.25rem;
+}
+#biodme{
+  position: relative;
+  left: -2rem;
+}
+#bioio{
+  position: relative;
+  left:0.3rem ;
+}
+#biomuna{
+  position: relative;
+  left: -8rem;
+}
+footer{
+  overflow-x: hidden;
+  position:absolute;
+  bottom: -75vh;
+  background-color:rgb(153, 153, 153);
+  width: 100vw;
+  height: 30vh;
+}
+.helpbar1{
+  position: relative;
+  top:-0.95rem;
+  background-color: rgb(51, 51, 56);
+}
+.helpbar1 p{
+  position: relative;
+  left: 5rem;
+  /* top: 1rem; */
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  font-family: 700;
+  color: white;
+}
+.helpbar1 button{
+  position: relative;
+  left: 82vw;
+  top: -6vh;
+  padding: 0.75rem 1.25rem ;
+  border-radius: 0.5rem;
+  background-color: rgb(236, 94, 113);
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  border:none;
+}
+.helpbar1 i{
+  color: white;
+  position: relative;
+  top: 2.5rem;
+  left: 2rem;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.helpbar2{
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.helpbar3{
+  height: 50vh;
+  width: 100vw;
+  background-color:rgb(51, 51, 56) ;
+}

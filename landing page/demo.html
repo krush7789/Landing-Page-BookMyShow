@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled List</title>
+    <style>
+        #greyline {
+            background-color: lightgray;
+            height: 2px;
+        }
+
+        #greyline + ul + ul > li {
+            color: red; /* Example styling: Change text color to red */
+            list-style-type: square; /* Example styling: Change bullet point style */
+        }
+    </style>
+</head>
+<body>
+    <div id="greyline"></div>
+    <ul>
+        <li>First list item 1</li>
+        <li>First list item 2</li>
+    </ul>
+    <ul>
+        <li>Second list item 1</li>
+        <li>Second list item 2</li>
+    </ul>
+</body>
+</html>
